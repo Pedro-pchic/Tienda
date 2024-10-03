@@ -1,5 +1,7 @@
 package com.pc.gestion.producto.entity;
 
+import java.math.BigDecimal;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,7 +16,7 @@ public class Producto {
 	private Long id;
 	
 	private String nombre;
-	private Double precio;
+	private BigDecimal precio;
 	private Integer stock;
 	
 	
@@ -30,10 +32,10 @@ public class Producto {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public Double getPrecio() {
+	public BigDecimal getPrecio() {
 		return precio;
 	}
-	public void setPrecio(Double precio) {
+	public void setPrecio(BigDecimal precio) {
 		this.precio = precio;
 	}
 	public Integer getStock() {

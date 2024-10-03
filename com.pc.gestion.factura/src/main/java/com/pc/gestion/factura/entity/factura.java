@@ -1,5 +1,6 @@
 package com.pc.gestion.factura.entity;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 import jakarta.persistence.Entity;
@@ -15,7 +16,7 @@ public class factura {
 	private Long id;
 	private Long clienteId;
 	private List<Long> listaproductos;
-	private Double total;
+	private BigDecimal total;
 	
 	public Long getId() {
 		return id;
@@ -35,10 +36,10 @@ public class factura {
 	public void setListaproductos(List<Long> listaproductos) {
 		this.listaproductos = listaproductos;
 	}
-	public Double getTotal() {
+	public BigDecimal getTotal() {
 		return total;
 	}
-	public void setTotal(Double total) {
+	public void setTotal(BigDecimal total) {
 		this.total = total;
 	}
 	
