@@ -25,7 +25,7 @@ public class Controller {
 	public List<Cliente> findAll(){
 		return clienteService.findAll();
 	}
-	@GetMapping("/{id}")
+	@GetMapping("buscar/{id}")
 	public ResponseEntity<Cliente> findById(@PathVariable Long id){
 		Optional<Cliente> cliente = clienteService.findById(id);
 		return cliente.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());

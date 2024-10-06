@@ -1,26 +1,13 @@
-package com.pc.gestion.producto.entity;
+package com.pc.gestion.factura.dto;
 
 import java.math.BigDecimal;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-
-
-
-@Entity
-@Table(name = "productos")
-public class Producto {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+public class ProductoDTO {
+private Long id;
 	
 	private String nombre;
 	private BigDecimal precio;
 	private Integer stock;
-	
 	
 	public Long getId() {
 		return id;
@@ -46,4 +33,6 @@ public class Producto {
 	public void setStock(Integer stock) {
 		this.stock = stock;
 	}
+	
+	
 }

@@ -26,7 +26,7 @@ public class Controller {
 	public List<Producto> findAll(){
 		return productoService.findAll();
 	}
-	@GetMapping("/{id}")
+	@GetMapping("/buscar/{id}")
 	public ResponseEntity<Producto> findById(@PathVariable Long id){
 		Optional<Producto> producto = productoService.findById(id);
 		return producto.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());

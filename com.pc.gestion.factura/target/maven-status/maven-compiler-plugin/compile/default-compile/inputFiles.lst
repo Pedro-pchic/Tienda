@@ -1,0 +1,8 @@
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.factura/src/main/java/com/pc/gestion/factura/ApplicationFactura.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.factura/src/main/java/com/pc/gestion/factura/controller/FacturaController.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.factura/src/main/java/com/pc/gestion/factura/entity/Factura.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.factura/src/main/java/com/pc/gestion/factura/feignclient/ClienteClient.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.factura/src/main/java/com/pc/gestion/factura/feignclient/ProductoClient.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.factura/src/main/java/com/pc/gestion/factura/repository/FacturaRepository.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.factura/src/main/java/com/pc/gestion/factura/request/FacturaRequest.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.factura/src/main/java/com/pc/gestion/factura/service/FacturaService.java

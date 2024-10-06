@@ -2,49 +2,58 @@ package com.pc.gestion.factura.service;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.pc.gestion.cliente.entity.Cliente;
-import com.pc.gestion.factura.entity.factura;
-import com.pc.gestion.factura.feignclient.ClienteClient;
-import com.pc.gestion.factura.feignclient.ProductoClient;
+
+import com.pc.gestion.factura.entity.Factura;
+import com.pc.gestion.factura.feignclient.ClienteFeingClient;
+import com.pc.gestion.factura.feignclient.ProductoFeingClient;
 import com.pc.gestion.factura.repository.FacturaRepository;
-import com.pc.gestion.producto.entity.Producto;
+import com.pc.gestion.factura.Iservice.IFactluraService;
+import com.pc.gestion.factura.dto.ClienteDTO;
+import com.pc.gestion.factura.dto.ProductoDTO;
 
 @Service
-public class FacturaService {
+public class FacturaService implements IFactluraService{
 	@Autowired
-	private FacturaRepository facturaRepository;
+	private  FacturaRepository facturaRepository;
 	
 	@Autowired
-	private ClienteClient clientecliente;
+	private ClienteFeingClient clientecliente;
 	
 	@Autowired
-	private ProductoClient productocliente;
+	private ProductoFeingClient productocliente;
+
+   
 	//veficar si el cliente existe 
-	public factura crearFactura(Long clienteId, List<Long> productoIds) {
-		Cliente cliente = clientecliente.getCliente(clienteId);
-		if(cliente == null) {
-			throw new RuntimeException("cliente no encontrado");
-		}
-	
-		//calcular el total y verificar el stock
-		BigDecimal total = BigDecimal.ZERO;
-		for(Long productoId : productoIds) {
-			Producto producto = productocliente.getProducto(clienteId);
-			if(producto == null || producto.getStock() <= 0) {
-				throw new RuntimeException("producto no disponible "+ productoIds);
-			}
-			total = total.add(producto.getPrecio());
-		}
-		
-		factura factura = new factura();
-		factura.setClienteId(clienteId);
-		factura.setListaproductos(productoIds);
-		factura.setTotal(total);
-		return facturaRepository.save(factura);
+	 // Verificar si el cliente existe y crear la factura
+
+	@Override
+	public List<Factura> findAll() {
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+	@Override
+	public Optional<Factura> findById(Long id) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	@Override
+	public Factura save(Factura factura) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+   
 	}
 	

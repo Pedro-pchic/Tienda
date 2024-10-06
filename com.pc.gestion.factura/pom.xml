@@ -14,7 +14,7 @@
   <artifactId>com.pc.gestion.factura</artifactId>
 
   <properties>
-    <!-- Define la versión de Spring Cloud -->
+    <spring-boot.version>3.3.3</spring-boot.version>
     <spring-cloud.version>2022.0.5</spring-cloud.version>
   </properties>
 
@@ -35,12 +35,6 @@
     <dependency>
       <groupId>org.mariadb.jdbc</groupId>
       <artifactId>mariadb-java-client</artifactId>
-    </dependency>
-
-    <!-- Jackson Databind for JSON processing -->
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
     </dependency>
 
     <!-- Spring Boot Actuator for monitoring -->
@@ -71,32 +65,22 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Spring Cloud Circuit Breaker (Resilience4j) -->
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
-    </dependency>
-
-    <!-- Spring Cloud Eureka Server -->
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-    </dependency>
-
     <!-- Spring Cloud OpenFeign -->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
+
     <dependency>
-    	<groupId>com.pc.gestion.cliente</groupId>
-    	<artifactId>com.pc.gestion.cliente</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
+      <groupId>com.pc.gestion.producto</groupId>
+      <artifactId>com.pc.gestion.producto</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
+
     <dependency>
-    	<groupId>com.pc.gestion.producto</groupId>
-    	<artifactId>com.pc.gestion.producto</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
+      <groupId>com.pc.gestion.cliente</groupId>
+      <artifactId>com.pc.gestion.cliente</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
@@ -118,8 +102,9 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>3.3.3</version>
+        <version>${spring-boot.version}</version>
       </plugin>
     </plugins>
   </build>
 </project>
+
