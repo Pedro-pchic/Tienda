@@ -1,0 +1,6 @@
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.cliente/src/main/java/com/pc/gestion/cliente/entity/Cliente.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.cliente/src/main/java/com/pc/gestion/cliente/repository/ClienteRepository.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.cliente/src/main/java/com/pc/gestion/cliente/implservice/ServiceImpl.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.cliente/src/main/java/com/pc/gestion/cliente/Iservice/IService.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.cliente/src/main/java/com/pc/gestion/cliente/controller/Controller.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.cliente/src/main/java/com/pc/gestion/cliente/MicroservicioCliente.java

@@ -1,0 +1,6 @@
+com/pc/gestion/producto/implProducto/ImplProducto.class
+com/pc/gestion/producto/entity/Producto.class
+com/pc/gestion/producto/Iservice/IProducto.class
+com/pc/gestion/producto/repository/productoRepository.class
+com/pc/gestion/producto/controller/Controller.class
+com/pc/gestion/producto/MicroservicioAplication.class

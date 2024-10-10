@@ -1,0 +1,6 @@
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.producto/src/main/java/com/pc/gestion/producto/MicroservicioAplication.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.producto/src/main/java/com/pc/gestion/producto/repository/productoRepository.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.producto/src/main/java/com/pc/gestion/producto/implProducto/ImplProducto.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.producto/src/main/java/com/pc/gestion/producto/Iservice/IProducto.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.producto/src/main/java/com/pc/gestion/producto/entity/Producto.java
+/home/pedris/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/com.pc.gestion/com.pc.gestion.producto/src/main/java/com/pc/gestion/producto/controller/Controller.java

@@ -1,0 +1,6 @@
+com/pc/gestion/cliente/implservice/ServiceImpl.class
+com/pc/gestion/cliente/MicroservicioCliente.class
+com/pc/gestion/cliente/repository/ClienteRepository.class
+com/pc/gestion/cliente/Iservice/IService.class
+com/pc/gestion/cliente/controller/Controller.class
+com/pc/gestion/cliente/entity/Cliente.class

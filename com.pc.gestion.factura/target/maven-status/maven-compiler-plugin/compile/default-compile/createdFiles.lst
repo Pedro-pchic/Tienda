@@ -1,0 +1,10 @@
+com/pc/gestion/factura/MicroservicioFactura.class
+com/pc/gestion/factura/entity/Factura.class
+com/pc/gestion/factura/repository/FacturaRepository.class
+com/pc/gestion/factura/service/FacturaService.class
+com/pc/gestion/factura/dto/ClienteDTO.class
+com/pc/gestion/factura/feignclient/ProductoFeignClient.class
+com/pc/gestion/factura/IService/IFacturaServicio.class
+com/pc/gestion/factura/feignclient/ClienteFeignClient.class
+com/pc/gestion/factura/dto/ProductoDTO.class
+com/pc/gestion/factura/controller/FacturaController.class

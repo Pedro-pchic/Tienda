@@ -7,11 +7,11 @@ public class ClienteDTO {
 	private String telefono;
 	private String direccion;
 	
-	public long getId() {
+	public long getIdCliente() {
 		return id;
 	}
-	public void setId(long id) {
-		this.id = id;
+	public void setIdCliente(long idCliente) {
+		this.id = idCliente;
 	}
 	public String getNombre() {
 		return nombre;

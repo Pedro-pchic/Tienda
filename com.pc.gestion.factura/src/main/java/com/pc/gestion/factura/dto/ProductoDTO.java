@@ -8,12 +8,11 @@ private Long id;
 	private String nombre;
 	private BigDecimal precio;
 	private Integer stock;
-	
-	public Long getId() {
+	public Long getIdProducto() {
 		return id;
 	}
-	public void setId(Long id) {
-		this.id = id;
+	public void setIdProducto(Long idProducto) {
+		this.id = idProducto;
 	}
 	public String getNombre() {
 		return nombre;
